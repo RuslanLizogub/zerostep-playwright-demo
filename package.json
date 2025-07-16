@@ -1,0 +1,17 @@
+{
+  "name": "zerostep-playwright-demo",
+  "version": "1.0.0",
+  "description": "Playwright test with ZeroStep AI",
+  "license": "MIT",
+  "main": "test.spec.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@zerostep/playwright": "0.1.5",
+    "dotenv": "^16.0.0"
+  }
+} 
